@@ -1,0 +1,14 @@
+.theme-btn {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid #888;
+    cursor: pointer;
+    font-size: 14px;
+    background: transparent;
+    transition: 0.2s;
+}
+
+.theme-btn:hover {
+    border-color: #646cff;
+    transform: scale(1.03);
+}
