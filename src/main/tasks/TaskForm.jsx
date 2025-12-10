@@ -34,7 +34,7 @@ export default function TaskForm({ addTask, filterByTag }) {
             <div className="tag-input">
                 <input
                     type="text"
-                    placeholder="Теги (через запятую)"
+                    placeholder="Теги"
                     value={tags}
                     onChange={(e) => setTags(e.target.value)}
                 />
@@ -48,11 +48,11 @@ export default function TaskForm({ addTask, filterByTag }) {
 
             <button onClick={handleSubmit}>Добавить</button>
 
-            {/* Поиск по тегам */}
+            {}
             <div className="search-tags">
                 <input
                     type="text"
-                    placeholder="Поиск по тегу..."
+                    placeholder="Поиск по тегу"
                     value={searchTag}
                     onChange={(e) => setSearchTag(e.target.value)}
                 />

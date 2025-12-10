@@ -17,10 +17,6 @@ export default function TaskItem({ task, toggleDone, removeTask }) {
                     <span key={i} className="tag">{t}</span>
                 ))}
             </div>
-
-            <button onClick={() => toggleDone(task.id)}>
-                {task.done ? "Готово" : "Выполнить"}
-            </button>
             <button onClick={() => removeTask(task.id)}>Удалить</button>
         </div>
     );
